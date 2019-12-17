@@ -9,11 +9,6 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
   <link rel="stylesheet" href="https://bootswatch.com/4/sketchy/bootstrap.min.css">
   <title>Index</title>
-  <style>
-    #header {
-      background-image: url();
-    }
-  </style>
 </head>
 
 <body>
@@ -25,10 +20,11 @@
         <h1 style="color:antiquewhite; font-size:170px">C & J</h1>
       </div>
     </div>
-    <div id="corps" class="row">
+    <div id="corps" class="row" style="height:auto;">
       <!--  la fermeture du corps est dans les pages  -->
+
       <div id="sidebar" class="col-3 btn-group-vertical bg-primary">
-        <a href="./about.php"><button type="button" class="btn btn-primary">À propos</button></a>
-        <a href="./store.php"><button type="button" class="btn btn-primary">Boutique</button></a>
-        <a href="./contact.php"><button action="./contact.php" type="button" class="btn btn-primary">Nous contacter</button></a>
+        <a href="about.php"><button type="button" class="btn btn-primary">À propos</button></a>
+        <a href="store.php"><button type="button" class="btn btn-primary">Boutique</button></a>
+        <a href="contact.php"><button action="./contact.php" type="button" class="btn btn-primary">Nous contacter</button></a>
       </div>
