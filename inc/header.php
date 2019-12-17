@@ -27,8 +27,8 @@
     </div>
     <div id="corps" class="row">
       <!--  la fermeture du corps est dans les pages  -->
-      <div id="sidebar" class="col-3 btn-group-vertical bg-primary" data-toggle="buttons">
-        <button type="button" class="btn btn-primary">About</button>
-        <button type="button" class="btn btn-primary">Store</button>
-        <button type="button" class="btn btn-primary">Contact</button>
+      <div id="sidebar" class="col-3 btn-group-vertical bg-primary">
+        <a href="./about.php"><button type="button" class="btn btn-primary">À propos</button></a>
+        <a href="./store.php"><button type="button" class="btn btn-primary">Boutique</button></a>
+        <a href="./contact.php"><button action="./contact.php" type="button" class="btn btn-primary">Nous contacter</button></a>
       </div>

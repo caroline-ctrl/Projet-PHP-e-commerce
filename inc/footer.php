@@ -1,3 +1,11 @@
+
+
+<!-- ceci ferme le container grid -->
+</div>
+<!--  -->
+<br>
+<br>
+
 <footer style="text-align: center">
   <button type="button" class="btn btn-outline-secondary">Made by Careau and Jojo @ 2019</button>
 </footer>
