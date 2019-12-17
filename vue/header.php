@@ -21,9 +21,12 @@
       </div>
     </div>
     <div id="corps" class="row">
-      <div id="sidebar" class="col-3 btn-group-vertical bg-primary" data-toggle="buttons">
-        <button type="button" class="btn btn-primary"><a class="btn btn-primary" href="index.php">Accueil</a></button>
-        <button type="button" class="btn btn-primary"><a class="btn btn-primary" href="propos.php">A propos</a></button>
-        <button type="button" class="btn btn-primary"><a class="btn btn-primary" href="magasin.php">Magasin</a></button>
-        <button type="button" class="btn btn-primary"><a class="btn btn-primary" href="contact.php">Contact</a></button>
+      <div id="sidebar" class="col-3 bg-primary">
+        <div class="btn-group-vertical" data-toggle="buttons">
+          <button type="button" class="btn btn-primary"><a class="btn btn-primary" href="index.php">Accueil</a></button>
+          <button type="button" class="btn btn-primary"><a class="btn btn-primary" href="propos.php">A propos</a></button>
+          <button type="button" class="btn btn-primary"><a class="btn btn-primary" href="magasin.php">Magasin</a></button>
+          <button type="button" class="btn btn-primary"><a class="btn btn-primary" href="contact.php">Contact</a></button>
+          <a href="panier.php" style="text-align: center; margin-top:40px"><img width="30%" src="./images/shopping-cart.svg"></a>
+        </div>
       </div>

@@ -1,4 +1,5 @@
-<?php include('inc/header.php') ?>
+<?php
+/* include('vue/header.php') ?>
 <!-- row et col-3 dans le header -->
 
 <div class="col-9 jumbotron">
@@ -26,7 +27,7 @@ try {
   echo $e->getMessage();
   die();
 }
-
+*/
 
 include('vue/header.php') ?>
 
