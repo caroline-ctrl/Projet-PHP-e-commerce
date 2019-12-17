@@ -1,5 +1,3 @@
-
-
 <!-- ceci ferme le container grid -->
 </div>
 <!--  -->
