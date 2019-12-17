@@ -1,25 +1,13 @@
 <?php
-<<<<<<< HEAD
-include('inc/header.php');
-
-$msg = '';
-$msgClass = '';
-
-=======
 include('vue/header.php');
 $msg = '';
 $msgClass = '';
->>>>>>> 98eb2675e0d29f121b7506ce5b8312121162e1df
 //check for submit
 if (filter_has_var(INPUT_POST, 'submit')) {
   // Get form data
   $name = htmlspecialchars($_POST['name']);
   $email = htmlspecialchars($_POST['email']);
   $message = htmlspecialchars($_POST['message']);
-<<<<<<< HEAD
-
-=======
->>>>>>> 98eb2675e0d29f121b7506ce5b8312121162e1df
   //Check required fields
   if (!empty($email) && !empty($name) && !empty($message)) {
     //passed
@@ -58,10 +46,6 @@ if (filter_has_var(INPUT_POST, 'submit')) {
     $msgClass = 'alert-danger';
   }
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> 98eb2675e0d29f121b7506ce5b8312121162e1df
 ?>
 
 <!-- row et col-3 dans le header -->
@@ -104,8 +88,4 @@ if (filter_has_var(INPUT_POST, 'submit')) {
 
 
 
-<<<<<<< HEAD
-<?php include('inc/footer.php') ?>
-=======
 <?php include('vue/footer.php') ?>
->>>>>>> 98eb2675e0d29f121b7506ce5b8312121162e1df
