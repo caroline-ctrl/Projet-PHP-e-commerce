@@ -20,20 +20,10 @@
         <h1 style="color:antiquewhite; font-size:170px">C & J</h1>
       </div>
     </div>
-<<<<<<< HEAD:inc/header.php
-    <div id="corps" class="row" style="height:auto;">
-      <!--  la fermeture du corps est dans les pages  -->
-
-      <div id="sidebar" class="col-3 btn-group-vertical bg-primary">
-        <a href="about.php"><button type="button" class="btn btn-primary">À propos</button></a>
-        <a href="store.php"><button type="button" class="btn btn-primary">Boutique</button></a>
-        <a href="contact.php"><button action="./contact.php" type="button" class="btn btn-primary">Nous contacter</button></a>
-=======
     <div id="corps" class="row">
       <div id="sidebar" class="col-3 btn-group-vertical bg-primary" data-toggle="buttons">
         <button type="button" class="btn btn-primary"><a class="btn btn-primary" href="index.php">Accueil</a></button>
         <button type="button" class="btn btn-primary"><a class="btn btn-primary" href="propos.php">A propos</a></button>
         <button type="button" class="btn btn-primary"><a class="btn btn-primary" href="magasin.php">Magasin</a></button>
         <button type="button" class="btn btn-primary"><a class="btn btn-primary" href="contact.php">Contact</a></button>
->>>>>>> 98eb2675e0d29f121b7506ce5b8312121162e1df:vue/header.php
       </div>
