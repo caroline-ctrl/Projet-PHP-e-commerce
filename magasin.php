@@ -25,7 +25,7 @@
                     <?php 
                     while ($donnees = $recup->fetch()){ ?>
                         <div class="col-4">
-                        <br><img src=" <?= $donnees['images']?>" alt="affiche image"><br>
+                        <br><img id="img1" src="<?= $donnees['images']?>" alt="affiche image"><br>
                         <?php echo $donnees['descriptions'] . '<br>';
                         echo $donnees['prix'] . ' € <hr><br><br>'; ?>
                         </div>
