@@ -6,6 +6,7 @@
 
 <footer style="text-align: center">
   <button type="button" class="btn btn-outline-secondary">Made by Careau and Jojo @ 2019</button>
+  <div><small>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></small></div>
 </footer>
 
 
